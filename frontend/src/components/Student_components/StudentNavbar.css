@@ -1,0 +1,103 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F5F4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .app-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .student-name {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .logout-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+   */
+   /* Navbar */
+.student-navbar {
+  background-color: #2c2c2c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.student-navbar .app-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.student-navbar .menu-button {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.student-navbar .logout-btn {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-navbar .logout-btn:hover {
+  background-color: #0097a7;
+}
+/* Add this CSS to your stylesheet */
+@media (max-width: 1024px) {
+  .student-navbar .logo {
+    display: none; /* Hide logo on smaller screens */
+  }
+
+  .student-navbar .sidebar-toggle {
+    display: block;
+  }
+}

@@ -1,0 +1,48 @@
+npm install axios
+npm install react-router-dom
+npm install mdb-react-ui-kit
+npm install @fortawesome/fontawesome-free
+npm install bootstrap
+npm install jspdf  //multiple
+npm install jspdf-autotable
+
+npm install xlsx
+npm install react-icons     //fontawesome iccon installeed ,quiz pyhtoon projecct
+npm install nodemailer
+
+struvture:
+MCQ_APP/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   └── components/
+│       ├── Home_landing/
+│       │   ├── About.jsx
+│       │   ├── AdminLogin.jsx
+│       │   ├── Contact.jsx
+│       │   ├── Home.jsx
+│       │   ├── LandingPage.css
+│       │   ├── LandingPage.jsx
+│       │   ├── Login.css
+│       │   ├── Login.jsx
+│       │   ├── MCQGenerator.jsx
+│       │   ├── Navbar.css
+│       │   ├── Navbar.jsx
+│       │   ├── StudentLogin.css
+│       │   ├── StudentLogin.jsx
+│       │   ├── TeacherLogin.css
+│       │   ├── TeacherLogin.jsx
+│       │   ├── MCQGenerator.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── setup.txt
+└── vite.config.js

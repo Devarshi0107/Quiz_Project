@@ -1,0 +1,196 @@
+{
+    "questions": [
+        {
+            "question": "*2json* What is the capital of France?",
+            "options": [
+                "Berlin",
+                "Madrid",
+                "Paris",
+                "Rome"
+            ],
+            "answer": "Paris",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* What is the chemical symbol for water?",
+            "options": [
+                "H2O",
+                "O2",
+                "CO2",
+                "NaCl"
+            ],
+            "answer": "H2O",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* Which planet is known as the Red Planet?",
+            "options": [
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "answer": "Mars",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* Who wrote 'To Kill a Mockingbird'?",
+            "options": [
+                "Harper Lee",
+                "Mark Twain",
+                "J.K. Rowling",
+                "Ernest Hemingway"
+            ],
+            "answer": "Harper Lee",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "*2json* What is the smallest prime number?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "answer": "2",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* In which year did the Titanic sink?",
+            "options": [
+                "1905",
+                "1912",
+                "1915",
+                "1920"
+            ],
+            "answer": "1912",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "*2json* What is the hardest natural substance on Earth?",
+            "options": [
+                "Gold",
+                "Iron",
+                "Diamond",
+                "Platinum"
+            ],
+            "answer": "Diamond",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "*2json* What is the largest organ in the human body?",
+            "options": [
+                "Heart",
+                "Liver",
+                "Skin",
+                "Lung"
+            ],
+            "answer": "Skin",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "*2json* Who painted the Mona Lisa?",
+            "options": [
+                "Vincent Van Gogh",
+                "Pablo Picasso",
+                "Leonardo da Vinci",
+                "Claude Monet"
+            ],
+            "answer": "Leonardo da Vinci",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "*2json* What is the chemical formula of methane?",
+            "options": [
+                "CO2",
+                "CH4",
+                "H2O",
+                "O2"
+            ],
+            "answer": "CH4",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* Which is the longest river in the world?",
+            "options": [
+                "Amazon River",
+                "Nile River",
+                "Yangtze River",
+                "Mississippi River"
+            ],
+            "answer": "Nile River",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "*2json* What is the speed of light in vacuum?",
+            "options": [
+                "300,000 km/s",
+                "150,000 km/s",
+                "100,000 km/s",
+                "3,000 km/s"
+            ],
+            "answer": "300,000 km/s",
+            "difficulty": "hard",
+            "marks": 3
+        },
+        {
+            "question": "*2json* Who discovered gravity?",
+            "options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Galileo Galilei",
+                "Nikola Tesla"
+            ],
+            "answer": "Isaac Newton",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* What is the square root of 144?",
+            "options": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "answer": "12",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* Which gas do plants use for photosynthesis?",
+            "options": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Nitrogen",
+                "Hydrogen"
+            ],
+            "answer": "Carbon Dioxide",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "*2json* What is the largest planet in our solar system?",
+            "options": [
+                "Earth",
+                "Saturn",
+                "Jupiter",
+                "Neptune"
+            ],
+            "answer": "Jupiter",
+            "difficulty": "medium",
+            "marks": 2
+        }
+    ]
+}

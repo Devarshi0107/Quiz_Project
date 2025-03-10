@@ -1,0 +1,118 @@
+structure :Show-Tree -Exclude 'node_modules'
+
+Run- npm run dev
+
+npm install express mongoose cors body-parser
+npm install -g nodemon
+npm install nodemon --save-dev
+npm install express mongoose body-parser cors bcrypt dotenv
+//done above for admin predifne crednetial
+now strart wiht npm run dev the nodmeon is enable and 
+if the file changes it automatic resatrt
+npm install jsonwebtoken    //for jwt
+
+***********- new part of code which work fine
+mongodb string :mongodb+srv://22it074:sUbYLPvGYz2iS8hC@mcq-app.b0lia.mongodb.net/?retryWrites=true&w=majority&appName=mcq-app
+//MCQ_BACKEND
+├── db
+│   └── connect.js
+├── models
+│   └── Question.js
+├── node_modules
+├── routes
+│   └── questions.js
+├── .env
+├── package-lock.json
+├── package.json
+├── server.js
+└── setup.txt
+
+
+mongoodb :22it074 id 
+
+
+
+
+
+
+
+
+Postman APIS Testing :
+these two are commpltly working
+1)admin login:
+http://localhost:3001/api/admin/login
+data: 
+{
+    "username" : "admsfdin",
+    "password" : "d1234"
+}
+2)admin change pasword:
+http://localhost:3001/api/admin/change-password
+data:
+{
+  "oldPassword": "admin123",    // replace with the actual current password
+  "newPassword": "newAdmin123"  // replace with the desired new password
+}
+
+//{ passwd : admin ,d123/4 ,d1}
+
+3)admin creating teacher login:
+http://localhost:3001/api/teacher/credentials/create
+
+{
+  "teacherName": "John Doe",
+  "email": "john.doe@example.com",
+  "phoneNumber": "+1234567890",
+  "branch": "Mathematics"
+}
+
+4)to listdown all the teachersdetails on the admin contorl
+http://localhost:3001/api/allteachers
+
+5) teacher login api:
+http://localhost:3001/api/teacher/login
+
+{
+  
+  "email": "22it074@charusat.edu.in",
+  "password":"ZXj06zz6Xj"
+}
+
+6) http://localhost:3001/api/teacher/change-password
+{
+  "currentPassword": "d1",
+  "newPassword": "dev"
+}
+
+
+Key	Value
+Content-Type	application/json
+Authorization	Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+
+
+
+
+
+//save quiz :
+{
+  "filename": "pqr",
+  "exam_name": "Mathematics Test",
+  "schedule_date": "2024-02-07",
+  "schedule_time_range": {
+    "start": "2025-02-07T08:30:00.000+05:30",
+    "end": "2025-02-07T09:30:00.000+05:30"
+  },
+  "branch": "IT",
+  "batch": 2022,
+  "roll_number_range": "1-100",
+  "questions": [
+    {
+      "question_text": "What is 2 + 2?",
+      "options": ["1", "2", "3", "4"],
+      "correct_option": 3,
+      "marks": 5,
+      "difficulty": "easy",
+      "negative_marking": 1
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Teacher Container */
+.teacher-container {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjusted height to consider the navbar */
+    transition: all 0.3s ease; /* Smooth transition for collapsing */
+}
+
+/* Navbar */
+.teacher-navbar {
+    background-color: #2c2c2c; /* Different color to distinguish from admin */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.teacher-navbar .teacher-app-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.teacher-navbar .teacher-menu-button {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.teacher-navbar .teacher-logout-btn {
+    background-color: #ff5722; /* Slightly different button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.teacher-navbar .teacher-logout-btn:hover {
+    background-color: #e64a19;
+}
+
+/* Sidebar */
+.teacher-sidebar {
+    width: 250px;
+    background-color: #2c2c2c; /* Different sidebar color */
+    color: #fff;
+    padding: 20px;
+    height: calc(100vh - 60px); /* Adjusted height to consider the navbar */
+    position: fixed;
+    transition: width 0.3s;
+    top: 60px;
+    left: 0;
+}
+
+.teacher-sidebar.collapsed {
+    width: 80px;
+}
+
+.teacher-sidebar-menu a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.teacher-sidebar-menu a:hover {
+    background-color: #555; /* Different hover color */
+}
+
+.teacher-sidebar-menu a .icon {
+    margin-right: 10px;
+}
+
+/* Main Content */
+.teacher-main-content {
+    margin-left: 250px;
+    padding: 20px;
+    padding-top: 80px; /* Added top padding to prevent overlap with navbar */
+    transition: margin-left 0.3s, padding-top 0.3s;
+    flex-grow: 1;
+}
+
+.teacher-main-content.collapsed {
+    margin-left: 80px; /* Adjust when sidebar is collapsed */
+}
+
+/* Header */
+.teacher-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.teacher-welcome-section {
+    margin-bottom: 20px;
+}
+
+/* Dashboard Cards */
+.teacher-dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teacher-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-card-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Specific Styles for Change Password and Create Exam */
+.teacher-sidebar-menu a[href="/teacher/change-password"] .icon {
+    color: #ffcc00; /* Icon color for Change Password */
+}
+
+.teacher-sidebar-menu a[href="/teacher/create-exam"] .icon {
+    color: #00cc66; /* Icon color for Create Exam */
+}

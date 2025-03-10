@@ -1,0 +1,148 @@
+{
+    "questions": [
+        {
+            "question": "Limited resources require careful management. What is the term for an economy where supply and demand determine prices?",
+            "options": [
+                "Planned Economy",
+                "Mixed Economy",
+                "Market Economy",
+                "Traditional Economy"
+            ],
+            "answer": "Market Economy",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "Limited liability companies (LLCs) protect their owners from what?",
+            "options": [
+                "Personal Debt",
+                "Government Taxes",
+                "Product Recalls",
+                "Shareholder Investments"
+            ],
+            "answer": "Personal Debt",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "Limited-edition products have which key characteristic?",
+            "options": [
+                "Unlimited Stock",
+                "Rare Availability",
+                "Lifetime Warranty",
+                "Mass Production"
+            ],
+            "answer": "Rare Availability",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "Limited-slip differentials in cars primarily serve what purpose?",
+            "options": [
+                "Reduce Fuel Consumption",
+                "Increase Grip on Slippery Roads",
+                "Improve Engine Efficiency",
+                "Enhance Suspension"
+            ],
+            "answer": "Increase Grip on Slippery Roads",
+            "difficulty": "easy",
+            "marks": 1
+        },
+        {
+            "question": "Limited partnerships in business involve what key characteristic?",
+            "options": [
+                "A company with unlimited liability",
+                "A partnership where some owners have limited liability",
+                "A government-regulated organization",
+                "A partnership with no profit motive"
+            ],
+            "answer": "A partnership where some owners have limited liability",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "Limited risk but also limited reward is a characteristic of which financial instrument?",
+            "options": [
+                "Stocks",
+                "Bonds",
+                "Futures",
+                "Options"
+            ],
+            "answer": "Bonds",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "Limited broadcast addresses in networking are used for what purpose?",
+            "options": [
+                "Sending data to all hosts on a network",
+                "Communicating with a single device",
+                "Encrypting network packets",
+                "Blocking unauthorized access"
+            ],
+            "answer": "Sending data to all hosts on a network",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "Limited import quotas imposed by governments typically lead to what economic impact?",
+            "options": [
+                "Lower Prices",
+                "Higher Domestic Production",
+                "Increased Unemployment",
+                "Elimination of Trade"
+            ],
+            "answer": "Higher Domestic Production",
+            "difficulty": "medium",
+            "marks": 2
+        },
+        {
+            "question": "Limited capabilities of logical systems are proven by which famous mathematical theorem?",
+            "options": [
+                "Pythagorean Theorem",
+                "Gödel's Incompleteness Theorem",
+                "Euler's Formula",
+                "Bayes' Theorem"
+            ],
+            "answer": "Gödel's Incompleteness Theorem",
+            "difficulty": "hard",
+            "marks": 3
+        },
+        {
+            "question": "Limited measurement accuracy in quantum mechanics is explained by which principle?",
+            "options": [
+                "Pauli Exclusion Principle",
+                "Heisenberg Uncertainty Principle",
+                "Schrödinger's Cat",
+                "Quantum Entanglement"
+            ],
+            "answer": "Heisenberg Uncertainty Principle",
+            "difficulty": "hard",
+            "marks": 3
+        },
+        {
+            "question": "Limited time to solve problems is a defining feature of which unsolvable computational problem?",
+            "options": [
+                "NP-complete",
+                "Halting Problem",
+                "P vs NP",
+                "Turing Machine"
+            ],
+            "answer": "Halting Problem",
+            "difficulty": "hard",
+            "marks": 3
+        },
+        {
+            "question": "Limited speed of light in a vacuum is due to which fundamental concept in Einstein's theory of relativity?",
+            "options": [
+                "Gravity",
+                "Spacetime Structure",
+                "Dark Matter",
+                "String Theory"
+            ],
+            "answer": "Spacetime Structure",
+            "difficulty": "hard",
+            "marks": 3
+        }
+    ]
+}
